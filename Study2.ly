@@ -31,44 +31,51 @@ f-4 a g a b,-4 a' cis, a' |
 d, d' c! d\finger "--2  " bes d a d |
   
 g, d c-4 d bes d a d-4 |
-g, g'' f g ees g d g |
-c, g f g ees g d g |
+{\override Beam.auto-knee-gap = #5
+g, g'' f g\finger "--2  " ees-3 g-2 d-1 g\finger "--3  " |
+\revert Beam.auto-knee-gap
+}
+c,\finger "--1  " g f g ees g d g |
 c, c' bes c a d g, c |
 f, c bes c a c g c
 
 
 f, a c ees d b ees b |
 f' bes, a bes ees bes e bes |
-f' bes a bes d bes ees bes |
+f' bes-2 a bes d bes ees bes |
 fes' bes, a bes ees bes e bes |
-f' bes a bes d, f e f |
-bes, d cis d f, b a b
+f' bes a bes d,\thumb f-4 e f |
+bes,-1 d-2 cis d f,-4 bes-4 a bes
 
-a8 f' e f ees c b c |
-a f e f ees c a f |
-bes bes' a bes d bes ees bes |
+a8 f' e f ees c-4 b c |
+a-2 f-4 e f ees-1 c-4 a f |
+bes bes'-2 a bes d bes ees bes |
 f' f,, e f a f c' f, |
-bes bes' a bes d bes f' bes,
+bes bes'-2 a bes d bes f' bes,
 
-a8 e dis e a, a' gis a |
+a8 e\finger "--2  " dis e a, a' gis a-1 |
 d, a' gis a d a f' a, |
-cis a gis a cis, a' gis a |
+cis-2 a gis a cis, a' gis a |
 d, a' gis a d a f' a, |
 e' a, gis a e' e, d b
 
-a8 a' cis e f d b e, |
-c e a c d b gis e |
-a e c' e, b' e, d' e, |
-c' e, e' e, d' e, b' e, |
-a, a' cis e f d b e, |
-c e a c d b gis e
+a8 a'-2 cis-1 e\finger "--2  " f-4 d\finger "--1  " b e, |
+c-2 e-1 a-1 c\finger "--4  " d\finger "--1  " b\finger "--  " gis e |
+a-1 e c' e, b' e, d'-3 e, |
+c' e, e'-4 e, d'-3 e, b' e, |
+a, a'-2 cis-1 e-2 f d b e,-1 |
+c-2 e-1 a-1 c-4 d\finger "--1  " b gis e
 
+{\override Beam.auto-knee-gap = #3
 a8 e, c'' e,, b'' e,, d'' e,, |
-c'' e,, e'' e,, d'' c,, b'' e,, |
-a a'' g a f a e a |
-f d cis d b d gis, e'
+c'' e,, e'' e,, d'' e,, b'' e,, |
+\revert Beam.auto-knee-gap
+}
 
-c8 a gis a f d' cis d |
+a a''-3 g-1 a f\thumb a e a |
+f-4 d-2 cis d\finger "--1  " b d gis, e'
+
+c8-1 a-4 gis a-2 f-4 d' cis d |
 e, a b c d e, f e |
 a, a' g a f a e a |
 f d cis d b d gis, e' |
