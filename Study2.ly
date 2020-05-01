@@ -76,28 +76,28 @@ a a''-3 g-1 a f\thumb a e a |
 f-4 d-2 cis d\finger "--1  " b d gis, e'
 
 c8-1 a-4 gis a-2 f-4 d' cis d |
-e, a b c d e, f e |
-a, a' g a f a e a |
-f d cis d b d gis, e' |
+e,-4 a b\finger "--1  " c-2 d-4 e, f e |
+a, a' g a-2 f-4 a e-2 a |
+f-1 d-4 cis d b d gis, e' |
 c a gis a f d' cis d
 
-e, a b c e, e' fis gis |
-a e' c e b e c e |
-a, e c' e, b' e, d' e, |
-c' e a, e' gis, e' b e |
-a, e c' e, fis e gis e
+e, a b c e, e'-1 fis\finger "--1  " gis |
+a-1 e'\finger "--2  " c e b e c e |
+a, e c' e, b' e, d'-3 e, |
+c'-4 e-2 a,-1 e' gis, e' b e |
+a, e c'-3 e, fis e\finger "--2  " gis e
 
 a8 e c e b e c e |
 a, e c' e, b' e, d' e, |
 c' e a, e' gis, e' b e |
-c e a e fis e gis e |
-a c e a gis e d b
+c e a e fis e gis-1 e-2 |
+a-2 c\finger "--4  " e-2 a-3 gis-1 e-2 d\thumb b-4
 
-a8 c, e a gis e d b |
-a c e gis a c e gis |
-a2 <a, c> |
+a8-1 c, e a gis e d b |
+a c-4 e-2 gis-1 a-2 c-4 e-2 gis-1 |
+a2-3 <a, c> |
 a,1
-
+\bar "|."
   }
 
   \layout {}
