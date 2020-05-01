@@ -1,8 +1,10 @@
-
+\header {
+  tagline = ""  % removed
+}
 
 \header {
-  title = "Untitled"
-  composer = "Composer"
+  title = "ETUDE"
+  composer = "Annibale Mengoli"
  
 }
 
@@ -16,10 +18,15 @@
    
      \override InstrumentName #'font-size = 6
   }
+
   \relative c' { 
   \clef bass
+\tempo "Allegro"
 
-a8-1 e'\finger "--2  " c-4 e-2 b e c e |
+
+\set Timing.measurePosition = #(ly:make-moment -3/8)
+e,8-1 fis\finger "--1  " gis-4 |
+a8\finger "--1  " e'\finger "--2  " c-4 e-2 b e c e |
 a,\finger "--1  " e'\finger "--2  " c e b e d\finger "--1  " e\finger "--2  " |
 c e a, e' gis, e' b e |
 a, e'\finger "--2  " c e\finger "--4  " fis, e' gis, e'|
