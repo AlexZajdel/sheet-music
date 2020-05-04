@@ -3,7 +3,7 @@
 }
 
 \header {
-  title = "ETUDE"
+  title = \markup { \fontsize #3 "12 Etudes" }
   composer = "Annibale Mengoli"
  
 }
@@ -79,7 +79,7 @@ c'' e,, e'' e,, d'' e,, b'' e,, |
 \revert Beam.auto-knee-gap
 }
 
-a a''-3 g-1 a f\thumb a e a |
+a a''-3 g-1 a f\thumb a e a|
 f-4 d-2 cis d\finger "--1  " b d gis, e'
 
 c8-1 a-4 gis a-2 f-4 d' cis d |
@@ -109,7 +109,6 @@ a,1
 
   \layout {}
   \midi {}
-
 
   
 
